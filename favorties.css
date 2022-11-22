@@ -1,0 +1,79 @@
+body{
+    background-color: darkgray;
+    color: black;
+    font-family: monospace, 'Times New Roman', Times, serif; 
+    margin:auto;
+    width:50%;
+}
+h1{
+    color: #830A1A;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+.large-containter{
+    align-content: center;
+    
+}
+.large-containter div{
+    display: inline-block;
+}
+.passtimes-list{
+    background-color: rgb(63, 63, 63);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin:10px 10px;
+    width:400px;
+}
+div .passtime-text, .game-text{
+    padding-left:10px;
+}
+.passtime-text{
+    color:rgb(0, 218, 218);
+}
+.passtimes{
+    color:aqua;
+}
+.games-list{
+    background-color: rgb(63, 63, 63);
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin:10px 10px;
+    width:400px;
+}
+.games{
+    color: white;
+}
+.game-text{
+    color:white;
+}
+.img-list{
+    margin:auto;
+}
+.img-list li{
+    float:left;
+    list-style: none;
+    padding-left: 10px;
+}
+.img-list li p{
+    width:350px;
+}
+.image-size{
+    width: 350px;
+    border:10px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+}
+.description{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: black;
+}
+.fav-img{
+    position: relative;
+    left: 300px;
+}
